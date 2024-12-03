@@ -1,0 +1,9 @@
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    scroll-padding-top: 70px; /* Adjust to the height of your fixed navbar */
+    padding-top: 64px;
+  }

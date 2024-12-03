@@ -1,0 +1,122 @@
+
+/* General Layout */
+.project-detail-container {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+/* Logo Section */
+.logo-section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.cytesi-company-logo {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+/* Content Section */
+.content-section {
+  padding: 60px 20px;
+}
+
+.content-section .container {
+  max-width: 1000px;
+  margin: 0 auto; /* Centers the container */
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.section-description {
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+}
+
+/* Bottom Sections */
+.bottom-sections {
+  margin-top: 70px;
+}
+
+/* Section Divider */
+.section-divider {
+  margin: 40px 0;
+  border-color: #ddd;
+}
+
+/* Overview Grid */
+.overview-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.overview-value {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Impact Section */
+.impact-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.impact-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.impact-section .section-title {
+  margin-bottom: 30px;
+}
+
+.impact-section .section-description {
+  margin-bottom: 30px;
+}
+
+/* Lessons Learned Section */
+.lessons-section {
+  background-color: white;
+  padding: 60px 20px;
+}
+
+.lessons-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.lessons-section .section-title {
+  margin-bottom: 30px;
+}
+
+.lessons-section .section-description {
+  margin-bottom: 30px;
+}
+
+/* Overall Experience Section */
+.experience-section {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+}
+
+.experience-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-section .section-title {
+  margin-bottom: 30px;
+}
+
+.experience-section .section-description {
+  margin-bottom: 30px;
+}
