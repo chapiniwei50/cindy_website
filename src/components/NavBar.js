@@ -76,7 +76,7 @@ export default function NavBar() {
       <Toolbar disableGutters sx={{ width: '100%', display: 'flex', justifyContent: 'space-between' }}>
         {/* Left-aligned "Cindy Wei" */}
         <Box sx={{ display: 'flex', marginLeft: '100px', flexShrink: 0 }}>
-          <NavText href="/" text="Cindy Wei" isMain />
+          <NavText href="/intro" text="Cindy Wei" isMain />
         </Box>
         {/* Right-aligned navigation links */}
         <Box sx={{ display: 'flex', marginLeft: 'auto' }}>

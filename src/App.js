@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import { createTheme } from "@mui/material/styles";
 
@@ -53,8 +53,7 @@ export default function App() {
       <BrowserRouter>
         <NavBar />
           <Routes>
-    
-            <Route path="/" element={<IntroPage />} />
+            <Route path="/" element={<Navigate to="/intro" replace />} />
             <Route path="/intro" element={<IntroPage />} />
             <Route path="/tsmc" element={<TsmcPage />} />
             <Route path="/cytesi" element={<CytesiPage />} />
