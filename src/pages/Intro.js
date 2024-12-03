@@ -9,7 +9,7 @@ import ProjectCard from '../components/projectCard';
 import JobCard from '../components/jobCard';
 
 const IntroPage = () => {
-  const [ setActiveSection] = useState('');
+  const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
