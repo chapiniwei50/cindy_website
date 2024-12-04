@@ -96,37 +96,55 @@ const IntroPage = () => {
           <h2>💻 Projects</h2>
           <Grid container spacing={2}>
             <ProjectCard  title="Mini Minecraft" 
-              category="Software Development"
-              description="This project is focused on improving performance and optimizing workflows."
+              category="Game Development | Group Project"
+              description="a simplified version of Minecraft implemented using C++ and OpenGL"
               imageSrc="/image/minecraft.png"
-              link="/project-details" />
+              link="/mini-minecraft" />
             <ProjectCard  title="SafeStreetNYC" 
-              category="SafeStreetNYC"
-              description="This project is focused on improving performance and optimizing workflows."
+              category="Web Project | Group Project"
+              description="a web application aimed at helping users make informed decisions when choosing housing or Airbnb locations in New York City"
               imageSrc="/image/safestreetnyc.png"
-              link="/project-details"/>
-               <ProjectCard  title="Mocap" 
-              category="Petbook"
-              description="This project is focused on improving performance and optimizing workflows."
-              imageSrc="/image/mocap.png"
-              link="/project-details"/>
+              link="/safestreetnyc"/>
+              <ProjectCard  title="Penn Course Selection" 
+              category="UI/UX Case Study | Personal Project"
+              description="a redesigned Penn course selection system addressing concerns raised by students"
+              imageSrc="/image/path.png"
+              link="/pathatpenn"/>
             <ProjectCard  title="Eduquest" 
-              category="Petbook"
-              description="This project is focused on improving performance and optimizing workflows."
+              category="UI/UX Case study | Web Project | Group Project"
+              description="a web platform integrated with Canvas, with different views for students and teachers, grades 5-12"
               imageSrc="/image/eduquest.png"
-              link="/project-details"/>
-            <ProjectCard  title="Spark" 
-              category="SafeStreetNYC"
-              description="This project is focused on improving performance and optimizing workflows."
+              link="/eduqeust"/>
+            <ProjectCard  title="PennSpark" 
+              category="Student Club"
+              description=" a student club at the University of Pennsylvania that bridge tech and design to build both creative projects and impactful products for clients and the community"
               imageSrc="/image/spark.png"
-              link="/project-details"/>
+              link="/pennspark"/>
             <ProjectCard  title="Petbook" 
-              category="Petbook"
-              description="This project is focused on improving performance and optimizing workflows."
+              category="Web Project | Group Project"
+              description="a social media platform that allows pet owners to connect, share updates, and celebrate their pets"
               imageSrc="/image/petbook.png"
-              link="/project-details"/>
+              link="/petbook"/>
 
            
+            
+          </Grid>
+        </div>
+
+        <div id="passion" className="column">
+          <h2>✨ Passion</h2>
+          <Grid container spacing={2}>
+          
+            <ProjectCard  title="Pennsori" 
+              category="Acapella Student Club | Business Chair"
+              description="the University of Pennsylvania's premier K-music fusion a cappella group."
+              imageSrc="/image/sori.png"
+              link="https://www.instagram.com/pennsori/"/>
+                <ProjectCard  title="Chapinillustration" 
+              category="2D Animation"
+              description="I make animations on my ipad :D"
+              imageSrc="/image/chapini.png"
+              link= "https://www.instagram.com/chapinillustration/"/>
             
           </Grid>
         </div>

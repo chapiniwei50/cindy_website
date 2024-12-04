@@ -18,10 +18,10 @@ const ProjectDetailPage = () => {
       <Box className="content-section">
         <div className="container">
           <Typography variant="h4" className="section-title">
-            Company Name
+            CyteSi Internship: Object Detection and PID Control
           </Typography>
           <Typography variant="body1" className="section-description">
-            A detailed description of your role, responsibilities, and the impact of your work at the company.
+            During my internship at CyteSi Inc., I worked on two critical experiments: developing a method to detect object movement distances and implementing a PID control mechanism. These projects involved advanced image processing, algorithm development, and control system design.
           </Typography>
           <Divider className="section-divider" />
           <Grid container spacing={4}>
@@ -35,21 +35,67 @@ const ProjectDetailPage = () => {
             </Grid>
             <Grid item xs={12} sm={4}>
               <Typography variant="subtitle1" className="overview-label">Tools Used</Typography>
-              <Typography variant="body2" className="overview-value">Python, TensorFlow, FNO, Jupyter</Typography>
+              <Typography variant="body2" className="overview-value">Python, OpenCV, C++</Typography>
             </Grid>
           </Grid>
         </div>
       </Box>
 
-      {/* Impact Section */}
+      {/* Object Moving Detection Section */}
       <Box className="impact-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Impact
+            Experiment 1: Object Moving Detection
           </Typography>
           <Typography variant="body1" className="section-description">
-            Highlight the measurable outcomes or results of your work, such as improving model performance by 20% or reducing production errors.
+            The goal of this experiment was to develop a robust algorithm for detecting the movement distance of objects in sequential images.
           </Typography>
+          <ul className="experiment-list">
+            <li>
+              <strong>Attempt 1:</strong> Detect the largest contour to calculate movement. However, detecting the outer border led to inaccuracies.
+            </li>
+            <li>
+              <strong>Attempt 2:</strong> Crop out the middle area to isolate the upper object for accurate movement detection, but center alignment posed challenges.
+            </li>
+            <li>
+              <strong>Attempt 3:</strong> Detect the top y-axis to calculate precise movement distances, achieving reliable results. 
+              <Typography component="a" href="/record-of-ten-cases" className="record-link">
+                Record of all ten cases.
+              </Typography>
+            </li>
+            <li>
+              <strong>Attempt 4:</strong> Account for transformed images by detecting the largest contour after rotation/translation and applying cropping for accurate movement detection.
+            </li>
+          </ul>
+          <Box className="image-section">
+            <img src="/path-to-moving-object-images.png" alt="Object Moving Detection Images" className="experiment-image" />
+          </Box>
+        </div>
+      </Box>
+
+      {/* PID Control Section */}
+      <Box className="impact-section">
+        <div className="container">
+          <Typography variant="h5" className="section-title">
+            Experiment 2: PID Control Mechanism
+          </Typography>
+          <Typography variant="body1" className="section-description">
+            Designed and tested a PID control mechanism to regulate flow rate and pressure in a dynamic system.
+          </Typography>
+          <ul className="experiment-list">
+            <li>
+              <strong>Proportional (P):</strong> Adjusted correction to stabilize response time and control overshooting.
+            </li>
+            <li>
+              <strong>Integral (I):</strong> Fine-tuned steady-state error but faced challenges with instability at high values.
+            </li>
+            <li>
+              <strong>Derivative (D):</strong> Enhanced the ability to anticipate changes, but excessive values led to instability.
+            </li>
+          </ul>
+          <Box className="image-section">
+            <img src="/path-to-pid-control-images.png" alt="PID Control Experiment Results" className="experiment-image" />
+          </Box>
         </div>
       </Box>
 
@@ -60,19 +106,19 @@ const ProjectDetailPage = () => {
             Lessons Learned
           </Typography>
           <Typography variant="body1" className="section-description">
-            Share key takeaways or insights gained from the project, such as improving teamwork, technical skills, or problem-solving approaches.
+            This internship allowed me to explore advanced image processing techniques and PID control systems. I learned to refine algorithms, improve collaboration, and troubleshoot complex hardware issues effectively.
           </Typography>
         </div>
       </Box>
 
-      {/* Overall Experience Section */}
+      {/* Conclusion Section */}
       <Box className="experience-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Overall Experience
+            Conclusion
           </Typography>
           <Typography variant="body1" className="section-description">
-            Conclude with your overall experience at the company, summarizing the most impactful aspects and how it helped shape your career goals.
+            My experience at CyteSi Inc. helped me gain deeper insights into image processing and dynamic system control. It was a transformative journey, shaping my technical and problem-solving skills.
           </Typography>
         </div>
       </Box>

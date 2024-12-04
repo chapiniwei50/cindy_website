@@ -120,3 +120,35 @@
 .experience-section .section-description {
   margin-bottom: 30px;
 }
+
+.experiment-list li {
+  margin-bottom: 15px;
+}
+
+.image-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.experiment-image {
+  max-width: 80%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.record-link {
+  color: #007BFF;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.impact-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.lessons-section,
+.experience-section {
+  padding: 60px 20px;
+}

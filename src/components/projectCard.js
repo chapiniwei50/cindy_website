@@ -8,7 +8,7 @@ const CardComponent = ({ title, category, description, imageSrc, link }) => {
       <Card
         sx={{
           width: 410, // Make the card wider
-          height: 400, // Adjust height accordingly
+          height: 430, // Adjust height accordingly
           margin: '20px',
           boxShadow: 3,
           display: 'flex',

@@ -10,9 +10,21 @@ import IntroPage from './pages/Intro';
 import TsmcPage from './pages/Tsmc';
 import CytesiPage from './pages/Cytesi';
 import StanfordPage from './pages/Stanford';
+import MiniminecraftPage from './pages/Miniminecraft';
+import SafestreetnycPage from './pages/safestreetnyc'; 
+import PetbookPage from './pages/Petbook'; 
+import PathatpennPage from './pages/Pathatpenn'; 
+import PennsparkPage from './pages/Pennspark'; 
+import EduquestPage from './pages/Eduquest'; 
+
+
+
+
+
 
 
 import './App.css';
+import Pathatpenn from "./pages/Pathatpenn";
 
 export const theme = createTheme({
   palette: {
@@ -58,6 +70,15 @@ export default function App() {
             <Route path="/tsmc" element={<TsmcPage />} />
             <Route path="/cytesi" element={<CytesiPage />} />
             <Route path="/stanford" element={<StanfordPage />} />
+            <Route path="/mini-minecraft" element={<MiniminecraftPage />} />
+            <Route path="/safestreetnyc" element={<SafestreetnycPage />} />
+            <Route path="/petbook" element={<PetbookPage />} />
+            <Route path="/pathatpenn" element={<PathatpennPage />} />
+            <Route path="/pennspark" element={<PennsparkPage />} />
+            <Route path="/eduqeust" element={<EduquestPage />} />
+
+
+
             
           </Routes>`
       </BrowserRouter>
