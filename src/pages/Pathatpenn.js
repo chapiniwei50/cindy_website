@@ -25,7 +25,7 @@ const PathatPenn = () => {
           </Typography>
           <Divider className="section-divider" />
           <Grid container spacing={4}>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={2} sm={4}>
               <Typography variant="subtitle1" className="overview-label">👩🏻‍💻 Role</Typography>
               <Typography variant="body2" className="overview-value">UX Designer & Researcher</Typography>
             </Grid>

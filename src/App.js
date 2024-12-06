@@ -3,7 +3,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { createTheme } from "@mui/material/styles";
 import React, { useEffect } from 'react';
 import NavBar from './components/NavBar';
-
+import Footer from './components/Footer';
 import IntroPage from './pages/Intro';
 import TsmcPage from './pages/Tsmc';
 import CytesiPage from './pages/Cytesi';
@@ -79,6 +79,7 @@ export default function App() {
           <Route path="/pennspark" element={<PennsparkPage />} />
           <Route path="/eduquest" element={<EduquestPage />} />
         </Routes>
+        <Footer /> 
       </BrowserRouter>
     </ThemeProvider>
   );

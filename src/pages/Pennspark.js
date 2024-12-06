@@ -24,7 +24,7 @@ const PennSparkPage = () => {
               a student club at the University of Pennsylvania that bridge tech and design to build both creative projects and impactful products for clients and the community         
           </Typography>
           <Divider className="section-divider" />
-          <Grid container spacing={4}>
+          <Grid container spacing={12}>
             <Grid item xs={12} sm={4}>
               <Typography variant="subtitle1" className="overview-label">👩🏻‍💻 Role</Typography>
               <Typography variant="body2" className="overview-value">Advanced Fullstack Developer</Typography>

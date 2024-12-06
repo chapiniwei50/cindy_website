@@ -10,22 +10,25 @@
 /* Alternating background colors for sections */
 .demo-section {
   background-color: #f8f8f8; /* Light gray */
-  color: #000; /* Black text for readability */
+  color: #000; /* Black text  */
 }
 
 .feature-section:nth-of-type(3n + 1) {
-  background-color: #f8f8f8; /* Light gray */
-  color: #000; /* Black text */
+  background-color: #333333; /* Black */
+  color: #ffffff; /* White text for readability */
 }
 
 .feature-section:nth-of-type(3n + 2) {
   background-color: #ffffff; /* White */
   color: #000; /* Black text */
+  box-shadow: none !important;
+
 }
 
 .feature-section:nth-of-type(3n) {
-  background-color: #333333; /* Black */
-  color: #ffffff; /* White text for readability */
+
+  background-color: #f8f8f8; /* Light gray */
+  color: #000; /* Black text */
 }
 
 /* Styling for headers and text to maintain readability */
