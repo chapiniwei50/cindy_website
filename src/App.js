@@ -1,10 +1,8 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { CssBaseline, ThemeProvider } from '@mui/material'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import { createTheme } from "@mui/material/styles";
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from './components/NavBar';
-
 
 import IntroPage from './pages/Intro';
 import TsmcPage from './pages/Tsmc';
@@ -15,16 +13,9 @@ import SafestreetnycPage from './pages/safestreetnyc';
 import PetbookPage from './pages/Petbook'; 
 import PathatpennPage from './pages/Pathatpenn'; 
 import PennsparkPage from './pages/Pennspark'; 
-import EduquestPage from './pages/Eduquest'; 
-
-
-
-
-
-
+import EduquestPage from './pages/Eduquest';
 
 import './App.css';
-import Pathatpenn from "./pages/Pathatpenn";
 
 export const theme = createTheme({
   palette: {
@@ -57,30 +48,37 @@ export const theme = createTheme({
   },
 });
 
+// ScrollToTop Component
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <BrowserRouter>
+        <ScrollToTop /> {/* Add ScrollToTop here */}
         <NavBar />
-          <Routes>
-            <Route path="/" element={<Navigate to="/intro" replace />} />
-            <Route path="/intro" element={<IntroPage />} />
-            <Route path="/tsmc" element={<TsmcPage />} />
-            <Route path="/cytesi" element={<CytesiPage />} />
-            <Route path="/stanford" element={<StanfordPage />} />
-            <Route path="/mini-minecraft" element={<MiniminecraftPage />} />
-            <Route path="/safestreetnyc" element={<SafestreetnycPage />} />
-            <Route path="/petbook" element={<PetbookPage />} />
-            <Route path="/pathatpenn" element={<PathatpennPage />} />
-            <Route path="/pennspark" element={<PennsparkPage />} />
-            <Route path="/eduqeust" element={<EduquestPage />} />
-
-
-
-            
-          </Routes>`
+        <Routes>
+          <Route path="/" element={<Navigate to="/intro" replace />} />
+          <Route path="/intro" element={<IntroPage />} />
+          <Route path="/tsmc" element={<TsmcPage />} />
+          <Route path="/cytesi" element={<CytesiPage />} />
+          <Route path="/stanford" element={<StanfordPage />} />
+          <Route path="/mini-minecraft" element={<MiniminecraftPage />} />
+          <Route path="/safestreetnyc" element={<SafestreetnycPage />} />
+          <Route path="/petbook" element={<PetbookPage />} />
+          <Route path="/pathatpenn" element={<PathatpennPage />} />
+          <Route path="/pennspark" element={<PennsparkPage />} />
+          <Route path="/eduquest" element={<EduquestPage />} />
+        </Routes>
       </BrowserRouter>
     </ThemeProvider>
   );
