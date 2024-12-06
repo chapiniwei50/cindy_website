@@ -51,7 +51,7 @@ const ProjectDetailPage = () => {
           <Button
             variant="contained"
             color="primary"
-            href="https://github.com/YourGitHubRepoLink"
+            href="https://docs.google.com/presentation/d/14Pwg7HzJk2Swn7UZORFmR3xCYVWOzQGu-vEPh_oYE8k/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

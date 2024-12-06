@@ -59,7 +59,7 @@ const ProjectDetailPage = () => {
           <Button
             variant="contained"
             color="primary"
-            href="https://github.com/YourGitHubRepoLink"
+            href="https://docs.google.com/presentation/d/1v05FPT4yr13PmbV2jhrCKKWVP57oVMZmbD0IvoUjn7U/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -106,7 +106,7 @@ const ProjectDetailPage = () => {
           <Button
             variant="contained"
             color="primary"
-            href="https://github.com/YourGitHubRepoLink"
+            href="https://docs.google.com/presentation/d/1ElJ6XqN8VXd6g8paeeqYrUu3gkb4gRWt3ayQPWZqtE0/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

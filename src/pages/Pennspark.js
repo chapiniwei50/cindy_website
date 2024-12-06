@@ -68,7 +68,7 @@ const PennSparkPage = () => {
                   className="project-button"
                   href="https://work.pennspark.org/spring23/spark-in-photos/"
                 >
-                  👀 View Project
+                  View Project 👀 
                 </Button>
               </Box>
             </Box>
@@ -100,7 +100,7 @@ const PennSparkPage = () => {
                   className="project-button"
                   href="https://github.com/PennSpark/sp24-events-at-penn"
                 >
-                  👀 View Project
+                  View Project 👀
                 </Button>
               </Box>
             </Box>
