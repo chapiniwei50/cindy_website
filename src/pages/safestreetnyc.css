@@ -12,3 +12,95 @@
   width: 100%;
   height: 100%;
 }
+
+
+/* General container styling for sections */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Alternating background colors for sections */
+.Database-section {
+  background-color: #f8f8f8; /* Light gray */
+}
+
+.Tablenames-section {
+  background-color: #ffffff; /* White */
+}
+
+.api-section {
+  background-color: #333333; /* Black */
+  color: #ffffff; /* White text for contrast */
+}
+
+.technical-challenges-section {
+  background-color: #f8f8f8; /* Light gray */
+}
+
+/* Styling for headers and text to maintain readability */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Adjust iframe for demo section */
+.video-container iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center ER Diagram image */
+.diagram-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* GitHub Button Container */
+.github-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* GitHub Button Styling with Border and Shadow */
+.github-button {
+  display: inline-block;
+  padding: 15px 100px; /* Wider button */
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: white; /* Black background */
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  border: 3px solid black; /* White border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.github-button:hover {
+  background-color: #d4d4d4; /* Slightly lighter shade of black */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Grid, Divider } from '@mui/material';
+import { Box, Typography, Grid, Divider,Button } from '@mui/material';
 import './Cytesi.css';
 
 const ProjectDetailPage = () => {
@@ -26,15 +26,15 @@ const ProjectDetailPage = () => {
           <Divider className="section-divider" />
           <Grid container spacing={4}>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Position</Typography>
+              <Typography variant="subtitle1" className="overview-label">👩🏻‍💻 Position</Typography>
               <Typography variant="body2" className="overview-value">Software Engineer Intern</Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Timeline</Typography>
+              <Typography variant="subtitle1" className="overview-label">⏰ Timeline</Typography>
               <Typography variant="body2" className="overview-value">June 2024 - August 2024</Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Tools Used</Typography>
+              <Typography variant="subtitle1" className="overview-label">🔧 Tools Used</Typography>
               <Typography variant="body2" className="overview-value">Python, OpenCV, C++</Typography>
             </Grid>
           </Grid>
@@ -42,14 +42,31 @@ const ProjectDetailPage = () => {
       </Box>
 
       {/* Object Moving Detection Section */}
-      <Box className="impact-section">
+      <Box className="experiment-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Experiment 1: Object Moving Detection
+            🧪 Experiment 1: Object Moving Detection
           </Typography>
+ 
+     
+
           <Typography variant="body1" className="section-description">
             The goal of this experiment was to develop a robust algorithm for detecting the movement distance of objects in sequential images.
           </Typography>
+           {/* GitHub Button */}
+      <Box className="github-button-section">
+        <div className="container">
+          <Button
+            variant="contained"
+            color="primary"
+            href="https://github.com/YourGitHubRepoLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Presentation 👀
+          </Button>
+        </div>
+      </Box>
           <ul className="experiment-list">
             <li>
               <strong>Attempt 1:</strong> Detect the largest contour to calculate movement. However, detecting the outer border led to inaccuracies.
@@ -59,29 +76,44 @@ const ProjectDetailPage = () => {
             </li>
             <li>
               <strong>Attempt 3:</strong> Detect the top y-axis to calculate precise movement distances, achieving reliable results. 
-              <Typography component="a" href="/record-of-ten-cases" className="record-link">
-                Record of all ten cases.
-              </Typography>
+         
             </li>
             <li>
               <strong>Attempt 4:</strong> Account for transformed images by detecting the largest contour after rotation/translation and applying cropping for accurate movement detection.
             </li>
           </ul>
           <Box className="image-section">
-            <img src="/path-to-moving-object-images.png" alt="Object Moving Detection Images" className="experiment-image" />
+            <img src="/image/object.png" alt="Object Moving Detection Images" className="experiment-image" />
           </Box>
         </div>
       </Box>
 
       {/* PID Control Section */}
-      <Box className="impact-section">
+      <Box className="experiment-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Experiment 2: PID Control Mechanism
+            🧪 Experiment 2: PID Control Mechanism
           </Typography>
+          
+     
+
           <Typography variant="body1" className="section-description">
             Designed and tested a PID control mechanism to regulate flow rate and pressure in a dynamic system.
           </Typography>
+           {/* GitHub Button */}
+      <Box className="github-button-section">
+        <div className="container">
+          <Button
+            variant="contained"
+            color="primary"
+            href="https://github.com/YourGitHubRepoLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Presentation 👀
+          </Button>
+        </div>
+      </Box>
           <ul className="experiment-list">
             <li>
               <strong>Proportional (P):</strong> Adjusted correction to stabilize response time and control overshooting.
@@ -93,9 +125,7 @@ const ProjectDetailPage = () => {
               <strong>Derivative (D):</strong> Enhanced the ability to anticipate changes, but excessive values led to instability.
             </li>
           </ul>
-          <Box className="image-section">
-            <img src="/path-to-pid-control-images.png" alt="PID Control Experiment Results" className="experiment-image" />
-          </Box>
+         
         </div>
       </Box>
 
@@ -103,7 +133,7 @@ const ProjectDetailPage = () => {
       <Box className="lessons-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Lessons Learned
+            ⭐️ Lessons Learned
           </Typography>
           <Typography variant="body1" className="section-description">
             This internship allowed me to explore advanced image processing techniques and PID control systems. I learned to refine algorithms, improve collaboration, and troubleshoot complex hardware issues effectively.
@@ -115,7 +145,7 @@ const ProjectDetailPage = () => {
       <Box className="experience-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Conclusion
+            🎊 Overall Experience
           </Typography>
           <Typography variant="body1" className="section-description">
             My experience at CyteSi Inc. helped me gain deeper insights into image processing and dynamic system control. It was a transformative journey, shaping my technical and problem-solving skills.

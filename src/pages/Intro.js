@@ -109,12 +109,12 @@ const IntroPage = () => {
               category="UI/UX Case Study | Personal Project"
               description="a redesigned Penn course selection system addressing concerns raised by students"
               imageSrc="/image/path.png"
-              link="/pathatpenn"/>
+              link="/"/>
             <ProjectCard  title="Eduquest" 
               category="UI/UX Case study | Web Project | Group Project"
               description="a web platform integrated with Canvas, with different views for students and teachers, grades 5-12"
               imageSrc="/image/eduquest.png"
-              link="/eduqeust"/>
+              link="https://docs.google.com/presentation/d/1FrQMIK5qoYuUtO1AnGGTky19tDijOC0A24tnMJMdo_A/edit?usp=sharing"/>
             <ProjectCard  title="PennSpark" 
               category="Student Club"
               description=" a student club at the University of Pennsylvania that bridge tech and design to build both creative projects and impactful products for clients and the community"

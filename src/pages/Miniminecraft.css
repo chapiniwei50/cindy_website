@@ -1,14 +1,62 @@
-.video-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* Aspect ratio: 16:9 */
+/* General container styling for sections */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
+/* Alternating background colors for sections */
+.demo-section {
+  background-color: #f8f8f8; /* Light gray */
+  color: #000; /* Black text for readability */
+}
+
+.feature-section:nth-of-type(3n + 1) {
+  background-color: #f8f8f8; /* Light gray */
+  color: #000; /* Black text */
+}
+
+.feature-section:nth-of-type(3n + 2) {
+  background-color: #ffffff; /* White */
+  color: #000; /* Black text */
+}
+
+.feature-section:nth-of-type(3n) {
+  background-color: #333333; /* Black */
+  color: #ffffff; /* White text for readability */
+}
+
+/* Styling for headers and text to maintain readability */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Video container for the demo section */
 .video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border: none;
+}
+
+/* Optional box-shadow for sections for better separation */
+.feature-section {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

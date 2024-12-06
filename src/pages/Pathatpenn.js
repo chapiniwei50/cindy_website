@@ -26,17 +26,17 @@ const PathatPenn = () => {
           <Divider className="section-divider" />
           <Grid container spacing={4}>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Role</Typography>
+              <Typography variant="subtitle1" className="overview-label">👩🏻‍💻 Role</Typography>
               <Typography variant="body2" className="overview-value">UX Designer & Researcher</Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Timeline</Typography>
+              <Typography variant="subtitle1" className="overview-label">⏰ Timeline</Typography>
               <Typography variant="body2" className="overview-value">November 2024 - December 2024</Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Tools Used</Typography>
+              <Typography variant="subtitle1" className="overview-label">🔧 Tools Used</Typography>
               <Typography variant="body2" className="overview-value">
-                Figma, Adobe XD, UserTesting.com
+                Figma
               </Typography>
             </Grid>
           </Grid>

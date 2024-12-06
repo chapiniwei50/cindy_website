@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Grid, Divider } from '@mui/material';
+import { Box, Typography, Grid, Divider, Button } from '@mui/material';
 import './Stanford.css';
 
 const ProjectDetailPage = () => {
@@ -26,15 +26,15 @@ const ProjectDetailPage = () => {
           <Divider className="section-divider" />
           <Grid container spacing={4}>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Position</Typography>
+              <Typography variant="subtitle1" className="overview-label">👩🏻‍💻 Position</Typography>
               <Typography variant="body2" className="overview-value">Software Engineer Intern</Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Timeline</Typography>
+              <Typography variant="subtitle1" className="overview-label">⏰ Timeline</Typography>
               <Typography variant="body2" className="overview-value">June 2024 - August 2024</Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Typography variant="subtitle1" className="overview-label">Tools Used</Typography>
+              <Typography variant="subtitle1" className="overview-label">🔧 Tools Used</Typography>
               <Typography variant="body2" className="overview-value">
                 Python, OpenCV, CLAHE, NumPy
               </Typography>
@@ -43,11 +43,28 @@ const ProjectDetailPage = () => {
         </div>
       </Box>
 
+      
+                    
+      {/* GitHub Button */}
+      <Box className="github-button-section">
+        <div className="container">
+          <Button
+            variant="contained"
+            color="primary"
+            href="https://github.com/YourGitHubRepoLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Presentation 👀
+          </Button>
+        </div>
+      </Box>
+
       {/* Methodology Section */}
       <Box className="impact-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Methodology
+            📖 Methodology
           </Typography>
           <Typography variant="body1" className="section-description">
             The project involved several stages of image processing, from preprocessing and normalization to final droplet detection and border segmentation:
@@ -58,16 +75,34 @@ const ProjectDetailPage = () => {
                 <b>Preprocessing:</b> Applied Gaussian blur and thresholding to reduce noise and enhance edges.
               </Typography>
             </li>
+           
             <li>
               <Typography variant="body2">
                 <b>Normalization:</b> Utilized CLAHE (Contrast Limited Adaptive Histogram Equalization) to normalize uneven lighting across the images.
               </Typography>
             </li>
+            <div className="image-section">
+            <img
+              src="/image/detect.png"
+              alt="Normalization Before and After"
+              className="experiment-image"
+            />
+            </div>
+           
+
             <li>
               <Typography variant="body2">
                 <b>Contour Detection:</b> Detected droplet contours using Canny edge detection and morphological transformations.
               </Typography>
             </li>
+            <div className="image-section">
+            <img
+              src="/image/cannyedge.png"
+              alt="Normalization Before and After"
+              className="experiment-image"
+            />
+           
+          </div>
             <li>
               <Typography variant="body2">
                 <b>Postprocessing:</b> Removed artifacts like black dots and refined droplet segmentation using dilation and erosion.
@@ -76,15 +111,11 @@ const ProjectDetailPage = () => {
           </ul>
           <div className="image-section">
             <img
-              src="/images/normalization-before-after.png"
+              src="/image/removedots.png"
               alt="Normalization Before and After"
               className="experiment-image"
             />
-            <img
-              src="/images/droplet-detection.png"
-              alt="Droplet Detection Process"
-              className="experiment-image"
-            />
+           
           </div>
         </div>
       </Box>
@@ -92,8 +123,8 @@ const ProjectDetailPage = () => {
       {/* Challenges Section */}
       <Box className="lessons-section">
         <div className="container">
-          <Typography variant="h5" className="section-title">
-            Challenges and Solutions
+        <Typography variant="h5" className="section-title">
+            😥 Challenges and Solutions
           </Typography>
           <Typography variant="body1" className="section-description">
             During the project, I faced several challenges:
@@ -117,7 +148,7 @@ const ProjectDetailPage = () => {
           </ul>
           <div className="image-section">
             <img
-              src="/images/border-detection.png"
+              src="/image/border.png"
               alt="Border Detection"
               className="experiment-image"
             />
@@ -129,7 +160,7 @@ const ProjectDetailPage = () => {
       <Box className="experience-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Results
+            📝 Results
           </Typography>
           <Typography variant="body1" className="section-description">
             The final algorithm successfully detected droplets and their borders with significantly improved accuracy. Key outcomes include:
@@ -153,7 +184,7 @@ const ProjectDetailPage = () => {
           </ul>
           <div className="image-section">
             <img
-              src="/images/final-detection-result.png"
+              src="/image/final.png"
               alt="Final Detection Result"
               className="experiment-image"
             />
@@ -165,7 +196,7 @@ const ProjectDetailPage = () => {
       <Box className="experience-section">
         <div className="container">
           <Typography variant="h5" className="section-title">
-            Overall Experience
+            🎊 Overall Experience
           </Typography>
           <Typography variant="body1" className="section-description">
             This internship provided invaluable hands-on experience in applying image processing techniques to solve real-world challenges in scientific research. I improved my skills in Python, OpenCV, and problem-solving while contributing to innovative projects.

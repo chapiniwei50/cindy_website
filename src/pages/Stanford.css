@@ -49,7 +49,7 @@
 /* Section Divider */
 .section-divider {
   margin: 40px 0;
-  border-color: #ddd;
+  background-color: transparent; 
 }
 
 /* Overview Grid */
@@ -65,7 +65,7 @@
 
 /* Impact Section */
 .impact-section {
-  background-color: #000;
+  background-color: #333333;
   color: #fff;
   padding: 60px 20px;
 }
@@ -119,4 +119,16 @@
 
 .experience-section .section-description {
   margin-bottom: 30px;
+}
+
+.github-button-section {
+  text-align: center;
+  margin-bottom: 50px ;
+  margin-top :0px;
+}
+
+.github-button-section .MuiButton-containedPrimary {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
