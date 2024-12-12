@@ -84,7 +84,7 @@ export default function NavBar() {
           <NavText href="/intro#experience" text="Professional Experience" />
           <NavText href="/intro#projects" text="Projects" />
           <NavText href="/intro#passion" text="Passion" />
-          <NavText href="https://peach-binny-4.tiiny.site/" text="Resume" />
+          <NavText href="https://cindyweiresume.tiiny.site/" text="Resume" />
         </Box>
       </Toolbar>
     </AppBar>
