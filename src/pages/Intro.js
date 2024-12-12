@@ -109,7 +109,7 @@ const IntroPage = () => {
               category="UI/UX Case Study | Personal Project"
               description="a redesigned Penn course selection system addressing concerns raised by students"
               imageSrc="/image/path.png"
-              link="/"/>
+              link="https://www.figma.com/deck/Uu75qJ3vtHhe9YBXAsINz0/Untitled?node-id=1-26&t=qoy7wxQZUWSehpVB-1"/>
             <ProjectCard  title="Eduquest" 
               category="UI/UX Case study | Web Project | Group Project"
               description="a web platform integrated with Canvas, with different views for students and teachers, grades 5-12"
