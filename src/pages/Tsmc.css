@@ -199,3 +199,130 @@
 .experience-section .section-description {
   margin-bottom: 30px;
 }
+
+
+/* General Layout */
+.project-detail-container {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+/* Logo Section */
+.logo-section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.company-logo {
+  max-height: 60%;
+  max-width: 60%;
+}
+
+/* Content Section */
+.content-section {
+  padding: 60px 20px;
+}
+.content-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section-title {
+  margin-bottom: 50px !important;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.section-description {
+  margin-bottom: 50px !important;
+  font-size: 1.1rem;
+}
+
+/* Horizontal Sections (Intro/Goals) */
+.horizontal-section-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding: 60px 20px;
+}
+.intro_goal_container {
+  background-color: #fff;
+  width: 100%;
+}
+.horizontal-section {
+  flex: 1;
+  padding: 20px;
+}
+.horizontal-section .section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.horizontal-section .section-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Section Divider */
+.section-divider {
+  margin-bottom: 40px !important;
+  border-color: #ddd;
+}
+
+/* Overview Grid */
+.overview-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.overview-value {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Impact Section (Dark) */
+.impact-section {
+  background-color: #000; /* or #333 if you prefer a dark gray */
+  color: #fff;
+  padding: 60px 20px;
+}
+.impact-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.impact-section .section-title {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* White Section (Lessons) */
+.lessons-section {
+  background-color: white;
+  color: #000;
+  padding: 60px 20px;
+}
+.lessons-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.lessons-section .section-title {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+h5 {
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+
+/* Force h5 section titles to be bigger than any other text */
+.project-detail-container h5.section-title {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  line-height: 1.2 !important;
+}
+
