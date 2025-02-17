@@ -356,7 +356,7 @@ const ProjectDetailPage = () => {
           </Typography>
           <Box sx={{ textAlign: 'center', marginTop: '2rem' }}>
       <img
-        src="/image/adain_diagram.png" // replace with your actual path
+        src="/image/synthetic.png" // replace with your actual path
         alt="AdaIN Style Transfer Diagram"
         style={{ maxWidth: '80%', height: 'auto' }}
       />
