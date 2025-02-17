@@ -437,10 +437,7 @@ const ProjectDetailPage = () => {
             Instead of only outputting mean/std from the final layer, compute them at <em>each</em> layer
             of the tool encoder and feed those stats into each AdaIN block in the decoder.
           </Typography>
-          <ul style={{ marginTop: '1rem', marginLeft: '1.5rem' }}>
-            <li>AdaIN in the First Layer: [Insert Pic 1]</li>
-            <li>AdaIN in Every Layer: [Insert Pic 2]</li>
-          </ul>
+        
           <Typography variant="h2" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
           AdaIn in First Layer Only
         </Typography>
