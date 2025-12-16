@@ -101,7 +101,7 @@ const Footer = () => {
                   LinkedIn
                 </Link>
                 <Link
-                  href="https://peach-binny-4.tiiny.site/"
+                  href="https://cindyweiresume.tiiny.site/"
                   target="_blank"
                   sx={{
                     color: '#fff',

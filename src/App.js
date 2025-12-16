@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import IntroPage from './pages/Intro';
 import TsmcPage from './pages/Tsmc';
-import CytesiPage from './pages/Cytesi';
+import WovenPage from './pages/Woven';
 import StanfordPage from './pages/Stanford';
 import MiniminecraftPage from './pages/Miniminecraft';
 import SafestreetnycPage from './pages/safestreetnyc'; 
@@ -14,6 +14,7 @@ import PetbookPage from './pages/Petbook';
 import PathatpennPage from './pages/Pathatpenn'; 
 import PennsparkPage from './pages/Pennspark'; 
 import EduquestPage from './pages/Eduquest';
+import YeetAMolePage from './pages/YeetAMole';
 
 import './App.css';
 
@@ -70,7 +71,7 @@ export default function App() {
           <Route path="/" element={<Navigate to="/intro" replace />} />
           <Route path="/intro" element={<IntroPage />} />
           <Route path="/tsmc" element={<TsmcPage />} />
-          <Route path="/cytesi" element={<CytesiPage />} />
+          <Route path="/woven" element={<WovenPage />} />
           <Route path="/stanford" element={<StanfordPage />} />
           <Route path="/mini-minecraft" element={<MiniminecraftPage />} />
           <Route path="/safestreetnyc" element={<SafestreetnycPage />} />
@@ -78,6 +79,7 @@ export default function App() {
           <Route path="/pathatpenn" element={<PathatpennPage />} />
           <Route path="/pennspark" element={<PennsparkPage />} />
           <Route path="/eduquest" element={<EduquestPage />} />
+          <Route path="/yeetamole" element={<YeetAMolePage />} />
         </Routes>
         <Footer /> 
       </BrowserRouter>

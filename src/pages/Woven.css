@@ -1,0 +1,117 @@
+/* Page */
+.project-detail-container {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding-bottom: 0; /* remove extra bottom gap */
+}
+
+/* Shared container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Top hero/logo */
+.logo-section {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px; /* slightly tighter */
+}
+
+.woven-company-logo {
+  max-height: 48%;
+  max-width: 48%;
+  object-fit: contain;
+}
+
+/* Head content */
+.content-section {
+  padding: 64px 0;
+  background: #f4f4f4;
+}
+
+.section-title {
+  font-weight: 800;
+  margin-bottom: 18px;
+  font-size: 2rem;
+}
+
+.section-description {
+  margin-bottom: 24px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.section-divider {
+  margin: 28px 0;
+  border-color: #ddd;
+}
+
+/* Overview */
+.overview-label {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.overview-value {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Project sections (1–4) */
+.experiment-section {
+  background: #fff;
+  padding: 56px 0;
+}
+
+.experiment-section:nth-of-type(even) {
+  background: #f8f9fb; /* subtle alternating */
+}
+
+.experiment-list {
+  margin: 16px 0 0 0;
+  padding-left: 18px;
+}
+
+.experiment-list li {
+  margin-bottom: 12px;
+  color: #333;
+  line-height: 1.65;
+}
+/* Technical Achievements — darker gray */
+.impact-section {
+  background: #1f2933; /* dark neutral gray */
+  padding: 56px 0;
+  color: #ffffff;
+}
+
+.impact-section .section-title,
+.impact-section .section-description,
+.impact-section li {
+  color: #ffffff;
+}
+
+/* Overall Experience — slightly darker gray */
+.experience-section {
+  background: #111827; /* deep gray (almost charcoal) */
+  padding: 56px 0;
+  color: #ffffff;
+}
+
+.experience-section .section-title,
+.experience-section .section-description {
+  color: #000000;
+}
+
+
+/* If you have a footer, remove default margins that create gaps */
+footer,
+.site-footer {
+  margin-top: 0 !important;
+}

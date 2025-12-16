@@ -86,8 +86,16 @@ const IntroPage = () => {
         <div id="experience" className="column">
           <h2>💼 Professional Experience</h2>
           <Grid container spacing={2}>
+            <JobCard
+              title="Woven by Toyota"
+              role="Software Engineer Intern"
+              date="May 2025 - Aug 2025"
+              description="Built a cross-platform desktop tool for ingesting, replaying, and visualizing autonomous vehicle logs, streamlining developer workflows across CLI, GUI, and real-time systems."
+              imageSrc="/image/wovenLogo.png"
+              link="/woven"
+            />
             <JobCard title="TSMC" role="Software Engineer Intern"   date="Jun 2022 - Aug 2022" date2 ="Jun 2024 - Aug 2024"  description="Improved the FNO model for defect detection in AMRS-DB by generating and comparing reference images" imageSrc="/image/tsmc.png"  link="/tsmc"/>
-            <JobCard title="CyteSi Inc."role="Software Engineer Intern"   date="Jun 2023 - Aug 2023" description="Detected precise positions of manipulated droplets on device to help enhance subsequent calculations" imageSrc="/image/cytesi.png" link="/cytesi"/>
+
             <JobCard title="Stanford Wing Hung Wong Laboratory"  date="Jun 2023 - Aug 2023" role="Software Engineer Intern" description="Developed and implemented image processing algorithms for droplet manipulation in cutting-edge biological automation project" imageSrc="/image/stanford.png" link="/stanford"/>
           </Grid>
         </div>
@@ -95,6 +103,14 @@ const IntroPage = () => {
         <div id="projects" className="column">
           <h2>💻 Projects</h2>
           <Grid container spacing={2}>
+            <ProjectCard
+              title="Yeet a Mole"
+              category="VR Game | Group Project"
+              description="A fast-paced VR wave-survival action game built in Unity for Meta Quest 3"
+              imageSrc="https://github.com/user-attachments/assets/a4430dff-96c7-4934-b8bb-59a0ab6491c8"
+              link="/yeetamole"
+            />
+
             <ProjectCard  title="Mini Minecraft" 
               category="Game Development | Group Project"
               description="a simplified version of Minecraft implemented using C++ and OpenGL"
