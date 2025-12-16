@@ -38,7 +38,9 @@ const IntroPage = () => {
         <div className="intro-content">
           <div className="text-section">
             <h1>Hello, I'm Cindy 👋</h1>
-            <p>I am currently a 4th year student pursuing a Master's in Computer Graphics and Gaming Technology, along with a Bachelor's degree in Computer Science. I am actively seeking a Summer 2025 internship opportunity!</p>
+            <p>
+  I received my Bachelor’s degree in Computer Science this May and am currently completing my Master’s in Computer Graphics and Game Technology at the University of Pennsylvania. I am actively seeking a full-time position starting after my graduation this May!
+</p>
             {/* Add icons below intro text */}
             <div className="social-icons">
               <IconButton
